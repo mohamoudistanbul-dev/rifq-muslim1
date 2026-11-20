@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RIFQ Muslim</string>
+
+    <string name="athan_channel_name">Athan &amp; Prayer Reminders</string>
+    <string name="athan_channel_description">Prayer time notifications and Athan reminders from RIFQ Muslim.</string>
+
+    <string name="offline_message">No internet connection.\n\nRIFQ Muslim needs a connection to load prayer times, Quran text and audio. Your downloaded content and bookmarks stay available.\n\nTap here to try again.</string>
+
+    <string name="webview_ua_suffix">RIFQMuslimAndroid/1.0</string>
+    <string name="splash_logo_description">RIFQ Muslim</string>
+</resources>

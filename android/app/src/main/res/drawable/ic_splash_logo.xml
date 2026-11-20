@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Gold ring -->
+    <path
+        android:pathData="M100,100 m-72,0 a72,72 0 1,0 144,0 a72,72 0 1,0 -144,0"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="4" />
+
+    <!-- Crescent -->
+    <path
+        android:fillColor="#D4AF37"
+        android:fillType="evenOdd"
+        android:pathData="M96,48 a52,52 0 1,0 0,104 a52,52 0 1,0 0,-104 z M118,40 a46,46 0 1,0 0,92 a46,46 0 1,0 0,-92 z" />
+
+    <!-- Star -->
+    <path
+        android:fillColor="#EFD894"
+        android:pathData="M140,50 L144.1,60.9 L155.9,61.5 L146.7,68.9 L149.8,80.2 L140,73.7 L130.2,80.2 L133.3,68.9 L124.1,61.5 L135.9,60.9 Z" />
+</vector>

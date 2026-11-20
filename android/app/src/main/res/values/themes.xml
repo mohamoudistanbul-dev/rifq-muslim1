@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+      The application window uses the RIFQ Muslim deep emerald background with
+      light status/navigation icons, so there is never a white flash or a light
+      bar behind the dark emerald interface.
+    -->
+    <style name="Theme.Rifq" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/rifq_bg</item>
+        <item name="android:statusBarColor">@color/rifq_bg</item>
+        <item name="android:navigationBarColor">@color/rifq_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorAccent">@color/rifq_gold</item>
+        <item name="colorPrimary">@color/rifq_emerald</item>
+        <item name="colorPrimaryDark">@color/rifq_emerald_deep</item>
+        <item name="android:textColorPrimary">@color/rifq_cream</item>
+    </style>
+
+    <!--
+      Branded Android splash screen: emerald background with the gold RIFQ
+      crescent logo, shown from cold start until the first frame is drawn.
+    -->
+    <style name="Theme.Rifq.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/rifq_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <item name="postSplashScreenTheme">@style/Theme.Rifq</item>
+    </style>
+
+</resources>

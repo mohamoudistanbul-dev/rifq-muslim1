@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Backup policy (Android 11 and below). Prayer reminder schedules are worth
+  restoring; the WebView profile holds session cookies and is excluded so a
+  signed-in session is never copied off the device.
+-->
+<full-backup-content>
+    <include domain="sharedpref" path="rifq_alarms" />
+    <exclude domain="root" path="app_webview" />
+</full-backup-content>

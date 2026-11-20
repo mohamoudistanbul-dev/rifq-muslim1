@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  RIFQ Muslim brand palette, taken from the application's own stylesheet so the
+  native shell, splash screen and icon match the existing design exactly.
+-->
+<resources>
+    <color name="rifq_emerald">#0F6B4F</color>
+    <color name="rifq_emerald_bright">#16A273</color>
+    <color name="rifq_emerald_deep">#041F17</color>
+    <color name="rifq_gold">#D4AF37</color>
+    <color name="rifq_gold_light">#EFD894</color>
+    <color name="rifq_gold_deep">#A9841F</color>
+    <color name="rifq_cream">#F6F1E2</color>
+    <color name="rifq_white">#FFFFFF</color>
+
+    <!-- Window background: deep emerald, never white -->
+    <color name="rifq_bg">#041F17</color>
+</resources>

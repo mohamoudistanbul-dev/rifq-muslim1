@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Gold ring -->
+    <path
+        android:pathData="M54,54 m-38,0 a38,38 0 1,0 76,0 a38,38 0 1,0 -76,0"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="2.4" />
+
+    <!-- Crescent (even-odd subtraction of an offset circle) -->
+    <path
+        android:fillColor="#D4AF37"
+        android:fillType="evenOdd"
+        android:pathData="M52,26 a28,28 0 1,0 0,56 a28,28 0 1,0 0,-56 z M64,22 a25,25 0 1,0 0,50 a25,25 0 1,0 0,-50 z" />
+
+    <!-- Five-pointed star -->
+    <path
+        android:fillColor="#EFD894"
+        android:pathData="M76,27 L78.2,32.9 L84.6,33.2 L79.6,37.2 L81.3,43.3 L76,39.8 L70.7,43.3 L72.4,37.2 L67.4,33.2 L73.8,32.9 Z" />
+</vector>
